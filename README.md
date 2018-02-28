@@ -1,8 +1,7 @@
 # Location-Predictor-for-Twitter-Tweets
 Implemented a python algorithm that predicts the city from which the tweet was made with an accuracy of ~70% on a noisy data using the Naïve Bayes approach.
 
-# geolocate.py: To predict the city from which the tweet was made by training it over a given train data. In addition to it print the highest frequency words
-# in a tweet for each of the 12 locations.
+# geolocate.py: To predict the city from which the tweet was made by training it over a given train data. In addition to it print the highest frequency words in a tweet for each of the 12 locations.
 #
 # We have created a dictionary to store the data corresponding to each location. This dictionary contains an array as its value while the city names as its key.
 #The array contains the #ThatCityAppearedInTheTweets, #Words in all the tweets from that city and the third element of the array is a dictionary in itself.
